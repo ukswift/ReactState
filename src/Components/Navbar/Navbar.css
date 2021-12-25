@@ -1,0 +1,10 @@
+.navbar-main {
+   margin : 0;
+}
+
+.navbar-main .navbar-brand {
+  overflow: hidden;
+  top: 0;
+  /* width: 100%; */
+  position: fixed;
+}

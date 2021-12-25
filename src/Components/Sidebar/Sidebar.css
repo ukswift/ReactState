@@ -1,0 +1,91 @@
+.sidebar-header {
+  background-color: rgb(214, 219, 208);
+  margin-top: 10px;
+  /* margin-left: 10px; */
+  height: 3.5rem;
+}
+
+.heading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.child {
+  margin-top: 15%;
+  height: 70vh;
+  overflow: auto;
+  /* border: 1px solid; */
+}
+
+.child .filter-header {
+  font-size: 20px;
+  font-weight: 700;
+  /* letter-spacing: 1px; */
+  text-overflow: hidden;
+  text-decoration: none;
+  text-align: auto;
+  margin-left: 1rem;
+  /* position: relative; */
+  margin-top: 1rem;
+}
+/* Date area */
+
+.child .date {
+  /* border: 1px solid; */
+  height: 20%;
+}
+
+.child .customdatepicker {
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-left: 10px;
+}
+
+/* Yes No area */
+
+.child .pdf {
+  /* border: 1px solid; */
+  margin-top: 1.5rem;
+  height: 10%;
+}
+
+.pdf .custom-toggle{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  /* font-weight: 400; */
+}
+.pdf .form-switch input{
+  font-size: 1.7rem;
+}
+
+/* Checkbox value 1 area */
+
+.child .conference {
+  /* border: 1px solid; */
+  margin-top: 1.5rem;
+  height: 35%;
+  overflow: auto;
+}
+
+.conference .customcheckbox{
+  margin-top: 1rem;
+  margin-left : 1.7rem;
+  font-size: 1.3rem;
+}
+
+/* Checkbox value 2 area */
+
+.child .keyword {
+  /* border: 1px solid; */
+  margin-top: 1.5rem;
+  height: 35%;
+  overflow: auto;
+}
+
+.keyword .customcheckbox{
+  margin-top: 1rem;
+  margin-left : 1.7rem;
+  font-size: 1.3rem;
+}
